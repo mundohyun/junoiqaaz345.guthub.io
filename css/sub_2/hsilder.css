@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+
+html{
+    min-height:100%;
+}
+
+body{
+	/* This image will be displayed fullscreen */
+    background:black;
+    /*background-size:cover; */
+    /* Workaround for some mobile browsers */
+    min-height:100%;
+    overflow: hidden;
+	width: 100%;
+	height:100%;
+	font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+	font-size: 12px;
+    font-weight: 100;
+	color: white;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    width: 100%; height: 55px; background-color: #352d38;
+    z-index: 2;
+    
+    }
+
+.nav_ul_center {
+    width: 1920px;
+    height: 50px;
+  
+    
+}
+
+nav ul {
+    margin-top: 14px;
+    margin-left: 44px;
+    }
+
+nav img {
+    margin-top: -5px;
+}
+
+nav ul li {
+    
+    float: left;
+    margin-top: 5px;
+    margin-right: 126.5px;
+    
+    
+}
+
+nav ul li a {
+    
+    color: aliceblue;
+    vertical-align: middle;
+    font-size: 14px;
+    
+}
+
+
+
+.ul_Text {
+    margin-left: 42px;
+}
+
+.nav_img { 
+    margin-left: 104px;
+    margin-right: 20px;
+    }
+
+.buy_list {
+    
+    position: fixed;
+    z-index: 3;
+}
+
+.buy_list_drop{
+    position: fixed;
+    z-index: 2;
+    top: 56px;
+    left: 0px;
+    width: 500px;
+    height: 100%;   
+}
+
+.drop_arrow {
+   
+   margin-top: 70px;
+   margin-left: 15px;
+    
+}
+
+
+a{text-decoration:none;color:white;}
+a:hover{
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.wrap{
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	position: absolute;
+	 -webkit-transform-style: preserve-3d;
+}
